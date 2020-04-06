@@ -1,0 +1,200 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+  }
+  .header{
+    background-color: #b22830;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* margin-left: -128px; */
+    z-index: 9999;
+  }
+  .header-margin{
+   margin: 0 10%;
+   display:  block;
+   overflow: hidden;
+  }
+  .header-top {
+    margin-top: 8px;
+   
+    text-align: right;
+}
+  .header-menu-container {
+    overflow: hidden;
+  }
+  .search {
+    display: inline-block;
+  }
+  .search form input{
+    width: 261px;
+    height: 28px;
+    border: none;
+  }
+  ::-webkit-input-placeholder {
+    font-style: italic;
+    font-size: 15px;
+  }
+  .search form button{
+    background: none;
+    border: none;
+    margin-left: -28px;
+   }
+   .language{
+    display: inline-block;
+   }
+  
+  .language ul{
+    /* display: flex;
+    margin-left: -27%; */
+    list-style: none;
+    padding: 0;
+   }
+   .language ul li{
+    display: inline-block;
+   }
+   .menu-con{
+  
+    background-color: #53382C;
+  }
+  .d-menu-con{
+    display: none;
+    padding: 1px 12px;
+    color: #FFFFFF;
+  }
+   .header-menu ul {
+    list-style: none;
+  }
+  ul .menu{
+    display: inline-block;
+  }
+  .header-menu ul li.menu  a.menu-a{
+    /* text-decoration:none ;
+    font-size: 16px;
+    box-sizing: border-box;
+    text-transform: uppercase;*/
+    transition: 0.4s; 
+    display: block;
+    text-decoration:none;
+     font-size: 19px;
+     line-height: 25px;
+     font-weight: bold;
+     color: #ffffff;
+     padding: 10px 17px;
+     font-family: 'Oswald', sans-serif;
+  }
+  a.menu-a:hover{
+    background-color: #53382C;
+  }
+  .list-menu{
+   background-color:   #53382C;
+   text-align: center;
+  }
+  .menu .list ul{
+    padding: 0;
+   }
+   .menu .list li{
+    margin-left: 14px;
+    cursor: pointer;
+  }
+  .list .list-menu1 {
+  
+    background: url(https://www.highlandscoffee.com.vn/skins/default/images/bgmenu.jpg) no-repeat center center ;
+
+  }
+  .list-menu .list-title {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    color: #f1bc7a !important;
+    font-family: 'Oswald', sans-serif;
+    transition: 0.4s;
+  }
+  .menu .list-menu .list-title:hover {
+
+    color:white !important;
+
+  }
+  .header-menu{
+    /* position: absolute;
+    bottom: -5%; */
+  }
+  .header-menu .list-menu .menu-hover{
+    color: white;
+    font-family: 'Oswald', sans-serif;  
+    font-size: 14px;
+    line-height: 22px; 
+  }
+  .menu-hover i {
+    display:none;
+  }
+  .menu-hover:hover i {
+    display:inline-block;
+  }
+
+  
+ 
+  /* .header-menu .list-menu li i:hover{
+    color: black;
+  } */
+  .list-menu ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .list-m {
+    /* margin-left: 7%; */
+    display: inline-block;
+}
+  .header-menu  .menu .list .list-menu ul {
+    margin: 0;
+  }
+
+  .list {
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    left: 0;
+    width: 100%;
+    background-color: #53382C;
+ }
+ .menu:hover .list {
+    display: block;
+    z-index: 999;
+ }
+ .list-menu2{
+  position: relative;
+  right: -50%;
+ }
+ .style_icon:before {
+  top: 12px;
+}
+.list-title img{
+  width: 148px; 
+  height: 96px; 
+  margin-top: 16%;
+}
+.list-margin {
+  margin: 15px 10%;
+    overflow: hidden;
+}
+.phin-container {
+padding: 15px;
+}
+@media (max-width: 1024px) {
+  .header-top .search{
+      display: none;
+     
+  }
+  .header-menu{
+    display: none;
+} 
+  .d-menu-con{
+    display: inline-block;
+  }
+}
+
