@@ -5,7 +5,13 @@
     display: block;
     background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/product/04_2018/menu-PSD-bg.jpg);
     background-repeat: no-repeat;
-    /* float: left; */
+    float: left;
+    background-size: cover;
+  }
+  .textTD-margin{
+    /* margin: 4% 10%; */
+    padding-left: 15%;
+    padding-top: 5%;
   }
   .textTD{
     /* width: 58%;
@@ -13,7 +19,9 @@
      margin-top: 3%; */
      /* display: inline-block; */
   }
-  
+  .imageTD-margin{
+    padding-left: 22%;
+  }
   #kptTD{
     color: #faebd7;
     text-transform: uppercase;
@@ -46,15 +54,16 @@
     font-family: 'Inter', sans-serif;
     font-size: 114%;
   }
-  .imageTD{
+  .imageTD a{
     /* margin-top: 1%;
     margin-left: 14%;
     width: 51%; */
     /* display: inline-block; */
+    float: left;
   }
-  /* .imageTD img{
-  
-  } */
+  .imageTD img{
+    float: left;
+  }
   .captionTD{
     /* position: absolute; */
     margin-top: 6%;
@@ -123,3 +132,14 @@
     border:solid 1px #B02B2E;
     text-decoration: none;
   }
+  @media (max-width: 1000px) {
+    #kptTD, #kptTD2, #kptTD3,#kptTD4{
+      display: none;
+    }
+  }
+  @media (max-width: 1024px) {
+    .textTD,.imageTD{
+        display: block;
+        width: 100%;
+    }
+}
