@@ -1,5 +1,11 @@
 /* footer */
 /* footer */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition:  all .3s linear;
+}
 .footer {
     display: block;
     background-color: #53382c;
@@ -83,18 +89,7 @@
   .footer-li a {
     text-decoration: none;
   }
-  @media (max-width: 1024px) {
-      .footer-ul .footer-li{
-          display: block;
-          text-align: center;
-      }
-  }
-  @media (max-width: 1024px) {
-    .footer-ul .symbols{
-        display: block;
-        text-align: center;
-    }
-}
+  
   /* @media (min-width: 768px) and (max-width: 1023px){
     .footer-ul .footer-li{
         display: block;
@@ -111,4 +106,44 @@
         display: block;
     }
   } */
- 
+  li .buttons {
+    display: none;
+  }
+    .buttons a{
+    text-decoration: none;
+    display: block;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    padding: 11px 15px;
+    background: #b22830;
+    text-align: Center;
+    color: #ffffff;
+  
+} 
+.buttons a:hover{
+  background: #ffffff;
+  color: #333333;
+}
+.btn-mm span {
+  position: relative;
+  /* padding-left: 30px; */
+}
+.buttons{
+  padding:2% 28%;
+}
+@media (max-width: 1024px) {
+  .footer-ul .footer-li{
+      display: block;
+      text-align: center;
+  }
+}
+@media (max-width: 1024px) {
+.footer-ul .symbols{
+    display: block;
+    text-align: center;
+}
+}
+@media (max-width:1024px){
+  li .buttons{display: block;}
+}

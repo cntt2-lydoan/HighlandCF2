@@ -7,14 +7,15 @@
     color: #53382c;
    }
    .cTinTuc-margin{
-    margin-right: -15px;
+    /* margin-right: -15px;
     margin-left: -15px;
     margin-right: 87px;
-    margin-left: 92px;
+    margin-left: 92px; */
     /* margin-right: 51px; */
-    margin-top: 53px;
+    /* margin-top: 53px;
     position: relative;
-    top: 60px;
+    top: 60px; */
+    padding: 3% 10%;
    }
    .text-tt a{
      text-decoration: none;
@@ -31,25 +32,31 @@
    }
    .ds-tintuc{
   
-    width:100%;
-    display: flex;
-    flex-wrap: wrap;
+    overflow: hidden;
+    float: left;
+   }
+   .tintuc-container {
+     padding: 15px;
    }
    .tintuc{
-     width: 30%;
-     margin-right: 36px;
-     margin-top: 22px;
-  
+    /* width: 30%; */
+    /* padding-right: 3%;
+    margin-top: 22px; */
+    float: left;
+   }
+   .image-tt {
+     overflow: hidden;
+     width: 100%;
    }
    .image-tt img{
      width:100%;
-     -webkit-transform: scale(1);
-      transform: scale(1);
-      -webkit-transition: 1.1 ease-in-out;
-      transition: .2s ease-in-out;
+     height: 100%;
+     backface-visibility: hidden;
+     transition: 1s;
    }
-   .image-tt img:hover{
-      -webkit-transform: scale(1.09);
+   .image-tt:hover img{
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
   
    }
    #kptTT{
@@ -77,3 +84,11 @@
     line-height: 21px;
     color: #888888;
    }
+
+   @media (max-width: 1024px) {
+    .ds-tintuc{
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

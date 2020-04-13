@@ -24,6 +24,7 @@ body {
 }
   .header-menu-container {
     overflow: hidden;
+    float: right;
   }
   .search {
     display: inline-block;
@@ -194,6 +195,14 @@ padding: 15px;
     display: none;
 } 
   .d-menu-con{
+    display: inline-block;
+  }
+}
+@media (max-width:1024px){
+  .header-margin{
+    display: flex;
+  }
+  .header-logo,.header-menu-container{
     display: inline-block;
   }
 }

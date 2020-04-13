@@ -1,14 +1,21 @@
 .row {
   display: block;
-margin: 0 -2px }
-  .row:before, .row:after {
-    clear: both;
-    content: "";
-    display: table; }
-
+  margin: 0 -15px;
+}
+.row::before {
+  clear: both;
+  content: "";
+  display: table;
+}
+.row::after {
+  clear: both;
+  content: "";
+  display: table;
+}
 [class*="col-"] {
   display: inline-block;
-  float: left; }
+  float: left;
+ }
 
 /* For large desktop: */
 @media (min-width: 1024px) {

@@ -1,6 +1,6 @@
 .content{
- 
-    margin-top:147px;
+/*  
+    margin-top:147px; */
   }
   /* contten-slider *
   /* Number text (1/3 etc) */
@@ -82,7 +82,8 @@
     height: 460px;
     background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/weblink/homepage-STORE_1.jpg);
     background-repeat: no-repeat;
-    background-size: 100% ;
+    background-size:cover;
+    float: left;
   }
   .blt{
     text-transform: uppercase;
@@ -100,7 +101,9 @@
     background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/weblink/bg2.jpg?fbclid=IwAR2uBfUUPuX7HkHPFarHL9kTrV7_cMdIFjyADcMBsouwyZtOUCfRfYAFegw);
     background-repeat: no-repeat;
     background-size: 100% ;
-    padding-bottom: 4%;
+    padding-bottom: 34px;
+    background-size:cover;
+    float: left;
   }
   .brt{
     display: inline-block;
@@ -280,5 +283,16 @@
 @media (max-width: 1000px) {
   #kpt, #kpt2, #kpt3 {
     display: none;
+  }
+}
+@media (max-width:1024px){
+  .bl-margin{
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
+@media (max-width:1024px){
+  .br-margin{
+    padding: 0;
   }
 }
