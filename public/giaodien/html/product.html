@@ -279,7 +279,7 @@
             </div>
         </div>
     </div>
-    <div class="content" style="margin-top: 114px;">
+    <div class="content" style="margin-top: 90px;">
         <div class="contentPro">
             <div class="contentPro-top">
                 <div class="contentPro-title">
@@ -561,11 +561,11 @@
 
             $("#owl-demo-p1").owlCarousel({
 
-                navigation: true, // Show next and prev buttons
-                pagination: false,
+                navigation: false, // Show next and prev buttons
+                pagination: true,
                 slideSpeed: 300,
-                items: 3
-
+                singleItem: true,
+                items : 3
                 // "singleItem:true" is a shortcut for:
                 // items : 1, 
                 // itemsDesktop : false,
@@ -580,24 +580,11 @@
 
             $("#owl-demo-p2").owlCarousel({
 
-                navigation: true, // Show next and prev buttons
-                pagination: false,
-                autoplay: 300,
-                items: 3,
-                responsiveClass: true,
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    600: {
-                        items: 3
-                    },
-                    1000: {
-                        items: 3
-                    }
-                }
-
-
+                navigation: false, // Show next and prev buttons
+                pagination: true,
+                slideSpeed: 300,
+                singleItem: true,
+                items : 3
                 // "singleItem:true" is a shortcut for:
                 // items : 1, 
                 // itemsDesktop : false,
@@ -607,7 +594,8 @@
 
             });
 
-        });
+            });
+
         $(document).ready(function () {
 
             $("#owl-demo1").owlCarousel({
