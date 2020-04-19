@@ -1,0 +1,94 @@
+ /* tTinTuc */
+ .tieude-tintuc h1{
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: bold;
+    text-align: left;
+    color: #53382c;
+   }
+   .cTinTuc-margin{
+    /* margin-right: -15px;
+    margin-left: -15px;
+    margin-right: 87px;
+    margin-left: 92px; */
+    /* margin-right: 51px; */
+    /* margin-top: 53px;
+    position: relative;
+    top: 60px; */
+    padding: 3% 10%;
+   }
+   .text-tt a{
+     text-decoration: none;
+     display: block;
+     font-size: 14px;
+     line-height: 22px;
+     height: 44px;
+     overflow: hidden;
+     font-weight: bold;
+     color: #2E2E2E;
+   }
+   .text-tt a:hover{
+     color:#b22830;
+   }
+   .ds-tintuc{
+  
+    overflow: hidden;
+    float: left;
+   }
+   .tintuc-container {
+     padding: 15px;
+   }
+   .tintuc{
+    /* width: 30%; */
+    /* padding-right: 3%;
+    margin-top: 22px; */
+    float: left;
+   }
+   .image-tt {
+     overflow: hidden;
+     width: 100%;
+   }
+   .image-tt img{
+     width:100%;
+     height: 100%;
+     backface-visibility: hidden;
+     transition: 1s;
+   }
+   .image-tt:hover img{
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+  
+   }
+   #kptTT{
+    color: #B02B2E;
+    text-transform: uppercase;
+    border: solid 1px #B02B2E;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 8px 65px;
+    transition: all .3s ease-in-out;
+   }
+   #kptTT:hover{
+    color:white;   
+    background-color:#B02B2E ;
+    transition: all .1s ease-in-out;
+    font-weight: bold;
+    border:solid 1px #B02B2E;
+    text-decoration: none;
+   }
+   .date-tt i{
+    color:#B02B2E;
+   }
+   .date-tt span{
+    font-size: 13px;
+    line-height: 21px;
+    color: #888888;
+   }
+
+   @media (max-width: 1024px) {
+    .ds-tintuc{
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

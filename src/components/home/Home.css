@@ -1,0 +1,299 @@
+.content{
+    /*  
+        margin-top:147px; */
+      }
+      /* contten-slider *
+      /* Number text (1/3 etc) */
+     
+      
+      .content1 img{
+       width:100%;
+        /* margin-left:-139px ; */
+        /* margin-right: 0px; */
+      }
+      
+      
+      /* content1*/
+      .content1{
+        display: block;
+        position: relative;
+        width:100%;
+        margin-top:-23px;
+      }
+      .caption{
+        position: absolute;
+        top: 78%;
+        left: 60%;
+      }
+      #kpt{
+        color:#F2BC7B;
+        text-transform: uppercase;
+        border:solid 1px #F2BC7B;
+        text-decoration: none;
+        border-radius: 5px;
+        padding: 6px 65px;
+        transition: all .3s ease-in-out;
+      }
+      #kpt:hover{
+        color:#8D7455;   
+        background-color:#F2BC7B ;
+        transition: all .3s ease-in-out;
+      }
+      /* comtent2 */
+      #kpt2{
+        color:#496333;
+        text-transform: uppercase;
+        border: solid 1px #496333;
+        text-decoration: none;
+        border-radius: 5px;
+        padding: 6px 65px;
+        transition: all .3s ease-in-out;
+      }
+      #kpt2:hover{
+        color:white;
+        background-color: #496333;
+        transition: all .3s ease-in-out;
+      }
+      /* .content3 */
+      #kpt3{
+        color:#B02B2E;
+        text-transform: uppercase;
+        border:solid 1px #B02B2E;
+        text-decoration: none;
+        border-radius: 5px;
+        padding: 6px 65px;
+        transition: all .3s ease-in-out;
+      }
+      #kpt3:hover{
+        color:white;   
+        background-color:#B02B2E ;
+        transition: all .3s ease-in-out;
+        font-weight: bold;
+      }
+      
+      /* content-bottom */
+      .content-bottom{
+        width: 100%;
+        /* display: flex; */
+        margin-top: -1%;
+      }
+      .bottom-left{
+        width: 50%;
+        height: 409px;
+        background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/weblink/homepage-STORE_1.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        float: left;
+      }
+      .blt{
+        text-transform: uppercase;
+        color:white;
+        font-weight: bold;
+        font-size: x-large;
+    
+      }
+      .bl-margin{
+        margin-top: 59px;
+        margin-left: 100px;
+      }
+      .bottom-right{
+        width: 50% ;
+        background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/weblink/bg2.jpg?fbclid=IwAR2uBfUUPuX7HkHPFarHL9kTrV7_cMdIFjyADcMBsouwyZtOUCfRfYAFegw);
+        background-repeat: no-repeat;
+        background-size: 100% ;
+        padding-bottom: 34px;
+        background-size:cover;
+        float: left;
+      }
+      .brt{
+        display: inline-block;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: x-large;
+      }
+      .br-margin{
+        /* margin-top: 35px;
+        margin-left: 100px; */
+        padding: 6% 15%;
+      }
+      .right-tren{
+        display: block;
+        position: relative;
+      }
+    
+      .right-tren a {
+        display: inline-block;
+        font-size: 13px;
+        font-weight: bold;
+        color: #343434;
+        position: absolute;
+        right: 0%;
+        bottom: 33%;
+    }
+      .right-tren span{
+        color: #343434;
+      }
+      .right-tren span:hover{
+        color:#B5373E;
+      }
+      .right-list{
+        display: block;
+      }
+      .r-list-image{
+        display: inline-block;
+      }
+      .r-list-content{
+        display: inline-block;
+      }
+      .rlc-title h3 a{
+        font-size: 16px;
+        line-height: 24px;
+        display: block;
+        font-weight: bold;
+        /* max-height: 48px; */
+        overflow: hidden;
+        text-decoration: none;
+        color:#343434;
+    
+      }
+      .right-list {
+        overflow: hidden;
+      }
+      .rlc-title, .rlc-date{
+        margin-left: 5px;
+      }
+      .rlc-title h3 {
+        margin: 0;
+      }
+      .rlc-title h3 a:hover{
+        color:#B5373E;
+      }
+      .rlc-date{
+        /* position: relative;
+        top: 3%; */
+      }
+    
+      .tittle-address h4{
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 21px;
+      }
+     
+      .right-input input{
+        width: 83%;
+       border: none;
+        height: 32px;
+    
+      }
+      .right-input button{
+      
+        border: none;
+        height: 32px;
+        position: absolute;
+        right: 7%;
+        background-color: #53382C;
+        width: 9%;
+        color:white;
+        transition: all .3s ease-in-out;
+      }
+      .right-input button:hover{
+        background-color: #B22931;
+      }
+      .right-input button span{
+        text-transform: uppercase;
+      }
+    
+      .address h5{
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-size: 17px;
+        font-weight: bold;
+    
+      }
+      /* .timduong h5{
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-size: 16px;
+      } */
+      .add-hover{
+        transition: all .3s ease-in-out;
+        margin-top: 5%;
+      }
+      .add-hover:hover{
+        cursor: 'pointer';
+        color: #F1BC7A;
+      }
+      .slider-address{
+       padding-left: 48%;
+     
+      }
+      .address:hover{
+        color: #F2BC7B;
+      }
+
+      .owl-pagination{
+    
+        position: absolute;
+        bottom: 4%;
+        left: 50%;
+      
+      }
+      .owl-page span {
+        background-color: #fff !important;
+      }
+      .owl-theme .owl-controls .active {
+        border: solid 1px #fff;
+        border-radius: 50%;
+        width: 20px;
+          height: 20px;
+      }
+    
+    .owl-theme .owl-controls .owl-page span {
+        width: 10px !important;
+        height: 10px !important;
+        margin: 5px 5px !important;
+      }
+      .owl-page {
+        margin: 0 2px;
+      }
+      .slick-prev{
+        display: none;
+      }
+      .slick-arrow{
+        display: none;
+      }
+    @media (max-width: 1024px) {
+        .content-bottom .bottom-left{
+            display: block;
+            width: 100%;
+        }
+    }
+    @media (max-width: 1024px) {
+        .content-bottom .bottom-right{
+            display: block;
+            width: 100%;
+        }
+    }
+    /* @media (max-width:600px) {
+        .content-bottom {
+            display: block;
+        }
+    } */
+    
+    @media (max-width: 1000px) {
+      #kpt, #kpt2, #kpt3 {
+        display: none;
+      }
+    }
+    @media (max-width:1024px){
+      .bl-margin{
+        margin-top: 0;
+        margin-left: 0;
+      }
+    }
+    @media (max-width:1024px){
+      .br-margin{
+        padding: 0;
+      }
+    }

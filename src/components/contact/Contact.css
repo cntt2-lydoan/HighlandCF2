@@ -1,0 +1,66 @@
+.lh-padding{
+    padding: 10%;
+    padding-top: 11%;
+    
+}
+.content-lienhe h1{
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: bold;
+    text-align: left;
+    color: #53382c;
+}
+.lh-input input,.lh-input textarea{
+    width: 100%;
+    border: none;
+    border: solid 1px #cccccc;
+    background: #f2f5f8;
+    height: 45px;
+    padding-left: 30px;
+}
+.lh-input{
+    display: block;
+    position: relative;
+    padding: 2% 0%;
+}
+.lh-input i{
+    position: absolute;
+    top: 31%;
+    left: 1%;
+}
+.mabaove{
+    display: flex;
+}
+#mabaove,.mabaove i,.mabaove img{
+display: inline-block;
+
+}
+#mabaove{
+    width: 85%;
+}
+.lh-input img{
+    padding-left: 5%;
+}
+.lh-button button{
+    font-size: 16px;
+    line-height: 24px;
+    border: solid 1px #b22830;
+    color: #b22830;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    width: 120px;
+    height: 40px;
+    background: none;
+    border-radius: 5px;
+}
+#vnt-contact {
+    background: url(https://www.highlandscoffee.com.vn/vnt_upload/weblink/bg.png) no-repeat top right;
+}
+@media (max-width:1024px){
+    #vnt-contact{
+        display: unset;
+    }
+}

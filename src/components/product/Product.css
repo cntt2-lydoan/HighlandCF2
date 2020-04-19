@@ -1,0 +1,122 @@
+
+.contentPro-title h1{
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: bold;
+    text-align: left;
+    color: #53382c;
+    text-transform: uppercase;
+    line-height: initial;
+}
+.contentPro{
+    /* position: relative;
+    top: 60px;
+    margin-left: 103px;
+    width: 57%; */
+    padding: 5% 30% 5% 10%;
+}
+.contentPro-text{
+    color: #53382c;
+    font-size: 14px !important;
+    line-height: 25px;
+    width: 83%;
+    text-align: justify;
+}
+.slider-image img{
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.contentPro-top{
+    border-bottom: solid 1px #D9D9D9;
+    padding-bottom: 35px;
+    margin-bottom: 35px;
+ 
+}
+
+
+.slider-image{
+    position: relative;
+    border: solid 1px #eeeeee;
+    padding-top: 100%;
+    transition: transform .2s;
+}
+.slider-image:hover{
+    -ms-transform: scale(1); /* IE 9 */
+    -webkit-transform: scale(1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+.slider-title a{
+    text-decoration: none;
+    color:#53382C;
+    text-align: center;
+    
+}
+.slider-title a:hover{
+    color:#F14A50;
+}
+.slider-title{
+    text-align: center;
+    margin: 15px;
+}
+.slider-price{
+    text-align: center;
+}
+
+/* .owl-dots {
+    display: none;
+}
+.owl-carousel {
+    position: relative;
+}
+.owl-stage-outer {
+    padding-top: 40px;
+}
+.owl-nav {
+    margin-top: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+} */
+.pro-slider-mg{
+    padding: 0 5%;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+    width: 40px;
+      height: 40px;
+      border-radius: 0px !important;
+      padding: unset !important;
+      margin: 0 0 0 5px !important;
+  }
+  .owl-theme .owl-controls {
+    margin: 0 !important;
+  }
+  #owl-demo-n {
+    margin: 45px 5%;
+    position: relative;
+  }
+  .owl-wrapper-outer {
+    padding-top: 50px;
+  }
+  .owl-theme .owl-controls {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .owl-buttons {
+    overflow: hidden;
+  }
+  @media (max-width:1024px){
+    .contentPro{
+      padding: 0;
+    }
+    .owl-theme .owl-controls {
+        position: unset;
+        top: 0;
+        right:0;
+      }
+  }

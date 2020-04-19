@@ -1,0 +1,156 @@
+/* tThucDon */
+/* content */
+.content {
+    margin-top: 147px;
+    overflow: hidden;
+  }
+  .content-TD{
+    /* width:1366px; */
+    display: block;
+    background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/product/04_2018/menu-PSD-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .textTD-margin{
+    padding: 5%;
+  }
+  .textTD{
+    position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      padding-left: 10%;
+  }
+  .kptTD-container {
+    display: block;
+    overflow: hidden;
+    max-width: 250px;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    border: solid 1px #faebd7;
+    margin: 30px 0;
+  }
+  #kptTD{
+  
+    color: #faebd7;
+    background-color: transparent;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    height: 100%;
+    line-height: 2.5;
+  }
+  #kptTD:hover{
+    color:white;   
+    background-color:#B02B2E ;
+    transition: all .3s ease-in-out;
+    font-weight: bold;
+    /* border:solid 1px #B02B2E; */
+    text-decoration: none;
+  }
+  
+  .textTD-title{
+  text-transform: uppercase;
+  color:#faebd7;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  }
+  .textTD-title h1:hover{
+  color: #B02B2E;
+  }
+  .textTD span{
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+  
+  }
+  .imageTD {
+    text-align: center;
+    float: right;
+  }
+  .content-TD {
+    position: relative;
+  }
+  .imageTD img {
+    margin-bottom: -5px;
+  }
+  .captionTD{
+    /* position: absolute; */
+    margin-top: 6%;
+  }
+  #kptTD2{
+    color: #006400;
+    text-transform: uppercase;
+    border: solid 1px #006400;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 8px 65px;
+    transition: all .3s ease-in-out;
+  
+    
+  }
+  #kptTD2:hover{
+    color:white;   
+    background-color:#B02B2E ;
+    transition: all .3s ease-in-out;
+    font-weight: bold;
+    border:solid 1px #B02B2E;
+    text-decoration: none;
+  }
+  .content-TD2{
+    background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/product/04_2018/menu-FREEZE.jpg);
+    /* width: 1366px; */
+    /* margin-right: -110px; */
+  }
+  #kptTD3{
+    color: #ffffff;
+    text-transform: uppercase;
+    border: solid 1px #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 8px 65px;
+    transition: all .3s ease-in-out;
+  }
+  #kptTD3:hover{
+    color:white;   
+    background-color:#B02B2E ;
+    transition: all .3s ease-in-out;
+    font-weight: bold;
+    border:solid 1px #B02B2E;
+    text-decoration: none;
+  }
+  .content-TD3{
+    width: 1366px;
+      display: flex;
+      background-repeat: no-repeat;
+      color: #ffffff;
+    border-color: #ffffff;
+      background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/product/04_2018/menu-TEA-bg.jpg);
+  }
+  #kptTD4{
+    color: #ffffe0;
+    text-transform: uppercase;
+    border: solid 1px #ffffe0;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 8px 65px;
+    transition: all .3s ease-in-out;
+  }
+  #kptTD4:hover{
+    color:white;   
+    background-color:#B02B2E ;
+    transition: all .3s ease-in-out;
+    font-weight: bold;
+    border:solid 1px #B02B2E;
+    text-decoration: none;
+  }
+  @media (max-width: 1000px) {
+  
+     .textTD {
+       position: unset;
+       padding: 0;
+       top: 0;
+       transform: unset;
+     }
+  }
