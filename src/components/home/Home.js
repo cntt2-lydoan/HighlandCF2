@@ -20,7 +20,7 @@ export default class Home extends Component {
             arrows:false
         };
         return (
-            <div className="content " style={{marginTop: '48px'}}>
+            <div className="content " style={{marginTop: '61px'}}>
                 <div classes="slider-container">
                    <Slider {...settings1}>
                         <div className=" item ">   

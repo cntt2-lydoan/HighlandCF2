@@ -41,6 +41,9 @@ display: inline-block;
 .lh-input img{
     padding-left: 5%;
 }
+.lh-form{
+    padding: 5% 0%;
+} 
 .lh-button button{
     font-size: 16px;
     line-height: 24px;

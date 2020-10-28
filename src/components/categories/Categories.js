@@ -55,9 +55,7 @@ export default class Categories extends Component {
                             <NavLink id="kptCF" to="/product">Xem sản phẩm</NavLink>
 
                         </div>
-                       
-                            {/* <a href="https://www.highlandscoffee.com.vn/vn/highlands-teas.html" id="kptCF" target="_blank">xem sản phẩm</a> */}
-               
+                                      
                         </div>
                         <div className="sp-right col-lg-4">
                         <div className="sp-info-r">

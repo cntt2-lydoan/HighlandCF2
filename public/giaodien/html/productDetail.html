@@ -70,13 +70,16 @@
                         <div class="h-menu-con">
                             <div class="h-list-menuc">
                                 <ul>
-                                    <li class="li-menu-con">
+                                    <li class="li-menu-con" style="text-align: left;">
                                         <a id="menu-con-a" class="menu-a"
                                             href="https://www.highlandscoffee.com.vn/vn/he-thong-cua-hang.html">QUÁN CÀ PHÊ</a>
                                     </li>
-                                    <li class="li-menu-con li-menu-dr ">
+                                    <li class="li-menu-con li-menu-dr " style="text-align: left;">
                                         <a class="menu-a" href="https://www.highlandscoffee.com.vn/vn/san-pham.html">THỰC ĐƠN </i></a>
-                                        <button class="menuxt"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                                        <button class="menuxt">
+                                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        </button>
+                                        <!-- <span class="menuxt"></span> -->
                                         <div class="menu-con-xt">
                                             <ul>
                                                 <li class="list-title-con"><a href="">CÀ PHÊ</a>
@@ -111,9 +114,7 @@
                                                         </ul>
                                                     </div>
                                                 </li>
-                                                
-                                                
-                    
+                                                                  
                                             </ul>
                                             <ul>
                                                 <li class="list-title-con"><a href="">TRÀ</a>
@@ -177,9 +178,10 @@
                                             </ul>
                                         </div>
                                     </li>
-                                    <li class="li-menu-con li-menu-dr ">
+                                    <li class="li-menu-con li-menu-dr "style="text-align: left;">
                                         <a class="menu-a" href="https://www.highlandscoffee.com.vn/vn/san-pham.html">TIN TỨC </i></a>
-                                        <button class="menuxt"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                                        <!-- <button class="menuxt"><i class="fa fa-angle-right" aria-hidden="true"></i></button> -->
+                                        <span class="menuxt"></span>
                                         <div class="menu-con-xt">
                                             <ul> 
                                                     <li><a class="list-title-con">TIN TỨC & SỰ KIỆN</a></li>   
@@ -187,9 +189,10 @@
                                             </ul>
                                         </div>
                                     </li>
-                                    <li class="li-menu-con li-menu-dr ">
+                                    <li class="li-menu-con li-menu-dr "style="text-align: left;">
                                         <a class="menu-a" href="https://www.highlandscoffee.com.vn/vn/san-pham.html">TRÁCH NHIỆM CỘNG ĐỒNG </i></a>
-                                        <button class="menuxt"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                                        <!-- <button class="menuxt"><i class="fa fa-angle-right" aria-hidden="true"></i></button> -->
+                                        <span class="menuxt"></span>
                                         <div class="menu-con-xt">
                                             <ul> 
                                                     <li class="list-title-con"><a href="" >GIÁ TRỊ VĂN HÓA VIỆT</a>
@@ -220,9 +223,10 @@
                                             </ul>
                                         </div>
                                      </li>
-                                     <li class="li-menu-con li-menu-dr ">
+                                     <li class="li-menu-con li-menu-dr "   style="text-align: left;">
                                         <a class="menu-a" href="https://www.highlandscoffee.com.vn/vn/san-pham.html">TIN TỨC </i></a>
-                                        <button class="menuxt"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                                        <!-- <button class="menuxt"><i class="fa fa-angle-right" aria-hidden="true"></i></button> -->
+                                        <span class="menuxt"></span>
                                         <div class="menu-con-xt">
                                             <ul> 
                                                     <li><a class="list-title-con">KHỞI NGUỒN </a></li>   
@@ -724,10 +728,9 @@
 
         const list = document.querySelectorAll('.li-menu-dr');
         list.forEach(item => {
-            // console.log(item.getElementsByClassName('menuxt')[0]);
             item.getElementsByClassName('menuxt')[0].addEventListener('click', e => {
                 const submenu1 = item.getElementsByClassName('menu-con-xt')[0];
-                // const menuxt = item.getElementsByClassName('menuxt')[0];
+                
                 if (submenu1.classList.contains('active')) {
                     submenu1.classList.remove('active');
                     item.classList.remove('active')

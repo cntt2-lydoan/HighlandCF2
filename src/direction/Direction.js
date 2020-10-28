@@ -15,9 +15,9 @@ export default class Direction extends Component {
     render() {
         return (
             <Fragment>
-                <Route path="/" component={Header}></Route>
-                <Route path="/home" component={Home}></Route> */}
-                <Route path="/menu" component={Menu}></Route> */}
+                <Route role="admin" path="/" component={Header}></Route>
+                <Route path="/home" component={Home}></Route> 
+                <Route path="/menu" component={Menu}></Route> 
                 <Route path="/news" component={News}></Route>
                 <Route path="/trach-nhiem-cd" component={trachNhiemCD}></Route>
                 <Route path="/ve-chung-toi" component={VeChungToi}></Route>
@@ -30,3 +30,18 @@ export default class Direction extends Component {
         )
     }
 }
+
+
+{/* <CustomRoute role="admin">
+    <Header></Header>
+</CustomRoute>
+
+function  CustomRoute({prop, children}) {
+    user = getUser()
+    if(user.role !=== prop.role){
+        history.pushState('/')
+    }
+
+    return <children {...props} />
+    
+} */}

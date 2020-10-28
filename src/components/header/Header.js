@@ -13,7 +13,7 @@ export default class Header extends Component {
             <div className="header-margin">
               <div className="header-logo col-lg-2 col-md-2 col-sm-2">
                 <NavLink to="/home"><img src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/logo.svg" alt="Highlands Coffee" /></NavLink>
-                {/* <a href="https://www.highlandscoffee.com.vn/vn/">
+                {/* <a href="https://www.highlandscoffee.com.vn/vn/">n
                   <img src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/logo.svg" alt="Highlands Coffee" /></a> */}
               </div>
               <div className="header-menu-container col-lg-10 col-md-10 col-sm-10 col-10">
@@ -42,6 +42,166 @@ export default class Header extends Component {
                       </li>
                     </ul>
                   </div>
+                  <div id="myNav" className="overlay">
+                      <div className="h-menu-closebtn">
+                        <a href="javascript:void(0)" className="closebtn"><i className="fa fa-times" aria-hidden="true" /></a>
+                      </div>
+                      <div className="h-menu-con">
+                        <div className="h-list-menuc">
+                          <ul>
+                            <li className="li-menu-con">
+                              <a id="menu-con-a" className="menu-a" href="https://www.highlandscoffee.com.vn/vn/he-thong-cua-hang.html">QUÁN CÀ PHÊ</a>
+                            </li>
+                            <li className="li-menu-con li-menu-dr ">
+                              <a className="menu-a" href="https://www.highlandscoffee.com.vn/vn/san-pham.html">THỰC ĐƠN </a>
+                              <button className="menuxt"><i className="fa fa-angle-right" aria-hidden="true" /></button>
+                              <div className="menu-con-xt">
+                                <ul>
+                                  <li className="list-title-con"><a>CÀ PHÊ</a>
+                                    <button className="menuxt1"><i className="fa fa-angle-right" aria-hidden="true" /></button>
+                                    <div className="menu-con-xt1">
+                                      <ul className>
+                                        <li className="menu-hover-con">
+                                          <a className="h">Cà Phê Phin</a>
+                                        </li>
+                                        <li className="menu-hover-con">
+                                          <a className="h">Cà Phê Espresso</a>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </li>
+                                </ul>
+                                <ul>
+                                  <li className="list-title-con"><a >FREEZE</a>
+                                    <button className="menuxt1"><i className="fa fa-angle-right" aria-hidden="true" /></button>
+                                    <div className="menu-con-xt1">
+                                      <ul>
+                                        <li className="menu-hover-c">
+                                          <a className="h">Freeze Cà Phê Phin</a>
+                                        </li>
+                                        <li className="menu-hover-c">
+                                          <a className="h">Freeze Không Cà Phê</a>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </li>
+                                </ul>
+                                <ul>
+                                  <li className="list-title-con"><a >TRÀ</a>
+                                    <button className="menuxt1"><i className="fa fa-angle-right" aria-hidden="true" /></button>
+                                    <div className="menu-con-xt1">
+                                      <ul>
+                                        <li className="menu-hover-c">
+                                          <a className="h">Trà Sen Vàng</a></li>
+                                        <li className="menu-hover-c">
+                                          <a className="h">Trà Thạch Đào</a></li>
+                                        <li className="menu-hover-c">
+                                          <a className="h">Trà Thanh Đào</a></li>
+                                        <li className="menu-hover-c">
+                                          <a className="h">Trà Thạch Vải</a></li>
+                                      </ul>
+                                    </div>
+                                  </li>
+                                </ul>
+                                <ul>
+                                  <li className="list-title-con"><a>BÁNH MỲ</a>
+                                    <button className="menuxt1"><i className="fa fa-angle-right" aria-hidden="true" /></button>
+                                    <div className="menu-con-xt1">
+                                      <ul>
+                                        <li className="menu-hover-c">
+                                          <a className="h">Thịt Nướng</a></li>
+                                        <li className="menu-hover-c">
+                                          <a className="h">Xíu Mại</a></li>
+                                        <li className="menu-hover-c">
+                                          <a className="h">Chả Lụa Xá Xíu</a></li>
+                                        <li className="menu-hover-c">
+                                          <a className="h">Gà Xé Nước Tương</a>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </li>
+                                </ul>
+                                <ul>
+                                  <li className="list-title-con"><a>KHÁC</a>
+                                    <button className="menuxt1"><i className="fa fa-angle-right" aria-hidden="true" /></button>
+                                    <div className="menu-con-xt1">
+                                      <ul>
+                                        <li className="menu-hover-c">
+                                          <a className="h">Bánh Ngọt</a></li>
+                                        <li className="menu-hover-c">
+                                          <a className="h">Merchandise</a></li>
+                                        <li className="menu-hover-c">
+                                          <a className="h">Cà Phê Đóng Gói</a></li>
+                                        <li className="menu-hover-c">
+                                          <a className="h">Thực Đơn Giao Hàng</a></li>
+                                      </ul>
+                                    </div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li className="li-menu-con li-menu-dr ">
+                              <a className="menu-a" href="https://www.highlandscoffee.com.vn/vn/san-pham.html">TIN TỨC </a>
+                              <button className="menuxt"><i className="fa fa-angle-right" aria-hidden="true" /></button>
+                              <div className="menu-con-xt">
+                                <ul className="menu-con-xt-ul"> 
+                                  <li className="list-title-con"><a>TIN TỨC &amp; SỰ KIỆN</a></li>   
+                                  <li className="list-title-con"><a>TIN KHUYẾN MÃI</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li className="li-menu-con li-menu-dr ">
+                              <a className="menu-a" href="https://www.highlandscoffee.com.vn/vn/san-pham.html">TRÁCH NHIỆM CỘNG ĐỒNG </a>
+                              <button className="menuxt"><i className="fa fa-angle-right" aria-hidden="true" /></button>
+                              <div className="menu-con-xt">
+                                <ul> 
+                                  <li className="list-title-con"><a href>GIÁ TRỊ VĂN HÓA VIỆT</a>
+                                    <button className="menuxt1"><i className="fa fa-angle-right" aria-hidden="true" /></button>
+                                    <div className="menu-con-xt1">
+                                      <ul className>
+                                        <li className="menu-hover-c">
+                                          <a className="h">Tranh đương đại hóa đông hồ</a>
+                                        </li>
+                                      </ul>  
+                                    </div>
+                                  </li> 
+                                </ul>
+                                <ul>
+                                  <li className="list-title-con"><a >CỘNG ĐỒNG</a>
+                                    <button className="menuxt"><i className="fa fa-angle-right" aria-hidden="true" /></button>
+                                    <div className="menu-con-xt1">
+                                      <ul>
+                                        <li className="menu-hover-c">
+                                          <a className="h">Lớp học cho em</a>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li className="li-menu-con li-menu-dr ">
+                              <a className="menu-a" href="https://www.highlandscoffee.com.vn/vn/san-pham.html">VỀ CHÚNG TÔI</a>
+                              <button className="menuxt"><i className="fa fa-angle-right" aria-hidden="true" /></button>
+                              <div className="menu-con-xt">
+                                <ul className="menu-con-xt-ul"> 
+                                  <li className="list-title-con"><a>KHỞI NGUỒN </a></li>   
+                                  <li className="list-title-con"><a>DỊCH VỤ KHÁCH HÀNG</a></li>
+                                  <li className="list-title-con"><a>NGHỀ NGHIỆP</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>          
+                        <div className="search-menu-con">
+                          <form>
+                            <input placeholder="Từ khóa" />
+                            <button className><i style={{color: '#808080'}} className="fa fa-search" aria-hidden="true" /></button>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+
                 </div>
                 <div className="header-menu">
                   <ul>
@@ -50,7 +210,6 @@ export default class Header extends Component {
                     </li>
                     <li className="menu">
                       <NavLink className="menu-a" to="/menu">THỰC ĐƠN</NavLink>
-                      {/* <a className="menu-a" href="https://www.highlandscoffee.com.vn/vn/san-pham.html">THỰC ĐƠN</a> */}
                       <div className="list">
                         <div className="list-margin">
                           <div className="list-menu list-m col-lg-2">
@@ -142,7 +301,6 @@ export default class Header extends Component {
                       </div>
                     </li>
                     <li className="menu">
-                      {/* <a className="menu-a" href="https://www.highlandscoffee.com.vn/vn/tin-tuc.html">TIN TỨC</a> */}
                       <NavLink className="menu-a" to="/news">TIN TỨC</NavLink>
                       <div className="list">
                         <div className="list-margin">
@@ -236,7 +394,12 @@ export default class Header extends Component {
               </div>
             </div>
           </div>
+         
           
         )
+       
     }
 }
+
+
+

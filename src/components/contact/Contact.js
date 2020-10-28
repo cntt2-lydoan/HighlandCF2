@@ -4,7 +4,7 @@ import classes from './Contact.css';
 export default class Contact extends Component {
     render() {
         return (
-            <div className="content-lienhe" style={{marginTop: '90px'}}>
+            <div className="content-lienhe" style={{marginTop: '83px'}}>
                 <div id="vnt-contact">
                 <div className="lh-padding">
                     <form action>
